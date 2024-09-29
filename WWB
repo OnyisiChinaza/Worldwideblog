@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Wide News</title>
+    <style>
+        /* Basic styling for the Word Wide News website */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .intro {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .blog-list {
+            padding: 20px;
+        }
+
+        .blog-post {
+            background-color: #fff;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+        }
+
+        .blog-post h3 {
+            margin-top: 0;
+        }
+
+        .blog-post a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .about-content {
+            padding: 20px;
+        }
+
+        .blog-content {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Word Wide News</h1>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="intro" id="home">
+        <h2>Latest News and Blogs</h2>
+        <p>Welcome to Word Wide News, where we bring you the latest updates from around the world.</p>
+    </section>
+
+    <section class="blog-list">
+        <h2>Recent Posts</h2>
+
+        <article class="blog-post">
+            <h3><a href="#blog1">Breaking News: New Technology in 2024</a></h3>
+            <p>Technology is evolving at a rapid pace. Click to read more...</p>
+        </article>
+
+        <article class="blog-post">
+            <h3><a href="#blog2">Global Health Updates</a></h3>
+            <p>The latest health updates from WHO. Click to read more...</p>
+        </article>
+
+        <article class="blog-post">
+            <h3><a href="#blog3">Economy in 2024: Trends to Watch</a></h3>
+            <p>Economic forecasts for the upcoming year. Click to read more...</p>
+        </article>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-content" id="about">
+        <h2>About Word Wide News</h2>
+        <p>Welcome to Word Wide News, your number one source for the latest news...</p>
+        <p>We're dedicated to providing you with the latest updates on politics, technology, health, and more.</p>
+    </section>
+
+    <!-- Blog Post Section -->
+    <section class="blog-content" id="blog1">
+        <h2>Breaking News: New Technology in 2024</h2>
+        <p>Posted on January 1, 2024</p>
+        <p>Technology continues to advance at a rapid pace...</p>
+        <p>... and here's why it's important to stay updated!</p>
+    </section>
+
+    <section class="blog-content" id="blog2">
+        <h2>Global Health Updates</h2>
+        <p>Posted on February 10, 2024</p>
+        <p>The latest updates from the World Health Organization (WHO)...</p>
+    </section>
+
+    <section class="blog-content" id="blog3">
+        <h2>Economy in 2024: Trends to Watch</h2>
+        <p>Posted on March 5, 2024</p>
+        <p>The global economy is poised for major shifts this year...</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Word Wide News. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // JavaScript for future dynamic features
+        console.log("Word Wide News website loaded successfully!");
+    </script>
+</body>
+</html>
